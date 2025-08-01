@@ -8,7 +8,7 @@ json_path = sys.argv[1]
 
 with open(json_path, 'r') as f:
     geo_data = json.load(f)
-
+ 
 # Get point positions
 positions = geo_data["positions"]
 

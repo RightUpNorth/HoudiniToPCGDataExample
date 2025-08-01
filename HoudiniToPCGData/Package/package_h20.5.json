@@ -1,0 +1,19 @@
+{
+    "hpath": "$PKG_HoudiniToPDGData/20.5",
+    "load_package_once": true,
+    "enable": "houdini_version >= '20.5'",
+    "version": "20.5",
+    "env": [
+        {
+            "PKG_HoudiniToPDGData": "$HOUDINI_PACKAGE_DIR/20.5"
+        },
+        {
+            "PYTHONPATH": "$HOUDINI_PACKAGE_DIR/Python;&"
+        }
+    ],
+    "process_order": 0,
+    "recommends": null,
+    "requires": null,
+    "show": true,
+    "package_path": null
+}
